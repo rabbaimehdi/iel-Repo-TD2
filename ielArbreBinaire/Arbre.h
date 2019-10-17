@@ -15,11 +15,13 @@ class ARBRE {
         };
     Noeud* root;
     void AjouterNoeudPrivee(int cle, Noeud* Ptr);
+    void AfficherArbrePrivee(Noeud* Ptr);
 
     public:
     ARBRE();
     Noeud* CreationFeuille(int cle);
     void AjouterNoeud(int cle);
+    void AfficherArbre();
 };
 
 #endif // ARBRE_H_INCLUDED

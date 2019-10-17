@@ -49,3 +49,22 @@ void ARBRE::AjouterNoeudPrivee(int cle, Noeud* Ptr){
         cout<< "ce Noeud existe deja !!! \n";
     }
 }
+
+void ARBRE::AfficherArbre(){
+        AfficherArbrePrivee(root);
+}
+
+void ARBRE::AfficherArbrePrivee(Noeud* Ptr){
+    if(root !=NULL){
+      if (Ptr->gauche != NULL){
+            AfficherArbrePrivee(Ptr->gauche);
+      }
+      cout << Ptr->cle << " ** ";
+      if(Ptr->droite !=NULL){
+        AfficherArbrePrivee(Ptr->droite);
+      }
+    }
+    else{
+        cout << "Arbre n exste pas !!! ";
+    }
+}
