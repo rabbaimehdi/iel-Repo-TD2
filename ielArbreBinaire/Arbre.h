@@ -14,9 +14,12 @@ class ARBRE {
             Noeud* droite;
         };
     Noeud* root;
+    void AjouterNoeudPrivee(int cle, Noeud* Ptr);
 
     public:
     ARBRE();
+    Noeud* CreationFeuille(int cle);
+    void AjouterNoeud(int cle);
 };
 
 #endif // ARBRE_H_INCLUDED
