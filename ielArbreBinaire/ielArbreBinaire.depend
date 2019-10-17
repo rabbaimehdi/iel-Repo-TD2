@@ -2,3 +2,12 @@
 1514144174 source:c:\td2\iel-repo-td2\ielarbrebinaire\main.cpp
 	<iostream>
 
+1571308742 source:c:\td2\iel-repo-td2\ielarbrebinaire\arbre.cpp
+	<iostream>
+	<cstdlib>
+	"Arbre.h"
+
+1571308238 c:\td2\iel-repo-td2\ielarbrebinaire\arbre.h
+	<iostream>
+	<cstdlib>
+
